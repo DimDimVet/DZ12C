@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define TASK 2//1,2
+#define TASK 1//1,2
 
 #if TASK==1
 #include "ExecutorStdLib.h"

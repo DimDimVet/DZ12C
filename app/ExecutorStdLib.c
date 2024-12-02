@@ -7,6 +7,7 @@ int *arrDinamic;
 
 void startTaskDynamic(int count)
 {
+
 	count++;
 
 	char *str = malloc(1 * (sizeof(char)));
@@ -26,6 +27,7 @@ void startTaskDynamic(int count)
 	{
 		executorDynamic(0, count, YesFreeArr);
 	}
+
 }
 
 void executorDynamic(int search, int count, int isFreeArr)
